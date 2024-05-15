@@ -18,7 +18,6 @@ const TabAboutUs: React.FC = () => {
         <IonContent>
 
           <IonCard>
-
             <IonCardHeader>
               <IonCardTitle>Skyla Wagstaff</IonCardTitle>
             </IonCardHeader>
@@ -37,7 +36,7 @@ const TabAboutUs: React.FC = () => {
               <IonCardTitle>Nova Wagstaff</IonCardTitle>
             </IonCardHeader>
             <IonCardContent>
-            <IonGrid>
+              <IonGrid>
                 <IonRow>
                   <IonCol>Palaeontologist by day, Nova saves her storytelling for night. The brains behind the operation.</IonCol>
                   <IonCol><IonImg src="/assets/about_us/founders/Nova.png" alt="Skyla Wagstaff" /></IonCol>
@@ -51,23 +50,25 @@ const TabAboutUs: React.FC = () => {
               <IonCardTitle>Mike Wagstaff</IonCardTitle>
             </IonCardHeader>
             <IonCardContent>
-            <IonGrid>
+              <IonGrid>
                 <IonRow>
                   <IonCol>Code jockey. To be replaced by AI as soon as possible.</IonCol>
                   <IonCol><IonImg src="/assets/about_us/founders/Mike.png" alt="Skyla Wagstaff" /></IonCol>
                 </IonRow>
               </IonGrid>
             </IonCardContent>
-
           </IonCard>
 
-          <IonCard>
+          <IonCard className='ion-margin-bottom'>
             <IonCardHeader>
               <IonCardTitle>Contact us</IonCardTitle>
             </IonCardHeader>
-            <IonCardContent><a href="mailto:mike.wagstaff@gmail.com?subject=Sky No Limit">Drop us an email</a></IonCardContent>
+            <IonCardContent>
+              <p><a href="mailto:mike.wagstaff@gmail.com?subject=Sky No Limit">Drop us an email</a></p>
+            </IonCardContent>
           </IonCard>
 
+          <IonToolbar className='large-title-fix'></IonToolbar>
 
         </IonContent>
       </IonContent>

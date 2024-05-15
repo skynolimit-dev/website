@@ -7,3 +7,7 @@ ion-img {
     max-width: 100px !important;
     float: inline-end;
 }
+
+ion-toolbar.large-title-fix {
+    padding-top: env(safe-area-inset-top);
+  }
