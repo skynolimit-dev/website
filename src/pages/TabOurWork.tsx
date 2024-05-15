@@ -19,7 +19,7 @@ const TabOurWork: React.FC = () => {
         <OurWorkContainer
           category="App"
           name="Top Scores"
-          description="A React Native iOS app for UK football fans, featuring upcoming top flight fixtures, live scores, a match predictor and more."
+          description="A React Native iOS app for UK football fans, featuring upcoming top flight fixtures, live scores, a match predictor and more. The app is currently in development."
           screenshots={[
             "/assets/our_work/screenshots/top_scores/Fixtures.png",
             "/assets/our_work/screenshots/top_scores/Matches showing on TV.png",
