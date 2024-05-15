@@ -64,7 +64,7 @@ const TabAboutUs: React.FC = () => {
               <IonCardTitle>Contact us</IonCardTitle>
             </IonCardHeader>
             <IonCardContent>
-              <p><a href="mailto:mike.wagstaff@gmail.com?subject=Sky No Limit">Drop us an email</a></p>
+              <p><a href="mailto:mike.wagstaff@gmail.com?subject=Sky No Limit enquiry">Drop us an email</a></p>
             </IonCardContent>
           </IonCard>
 
