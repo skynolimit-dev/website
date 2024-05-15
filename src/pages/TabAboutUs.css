@@ -1,0 +1,10 @@
+ion-card-subtitle {
+    text-transform: uppercase;
+}
+
+ion-img {
+    max-height: 250px !important;
+    max-width: 250px !important;
+    float: inline-end;
+    padding-left: 10px;
+}
