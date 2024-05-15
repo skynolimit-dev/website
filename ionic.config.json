@@ -1,0 +1,8 @@
+{
+  "name": "Sky No Limit website",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "62cfd5ce"
+}
