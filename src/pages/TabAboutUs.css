@@ -3,6 +3,7 @@ ion-card-subtitle {
 }
 
 ion-img {
+    border-radius: 10px !important;
     max-height: 100px !important;
     max-width: 100px !important;
     float: inline-end;
@@ -10,4 +11,4 @@ ion-img {
 
 ion-toolbar.large-title-fix {
     padding-top: env(safe-area-inset-top);
-  }
+}
