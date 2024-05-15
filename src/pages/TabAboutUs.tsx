@@ -1,4 +1,4 @@
-import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonImg, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonImg, IonPage, IonTitle, IonToolbar, IonCol, IonGrid, IonRow } from '@ionic/react';
 import './TabAboutUs.css';
 
 const TabAboutUs: React.FC = () => {
@@ -18,27 +18,46 @@ const TabAboutUs: React.FC = () => {
         <IonContent>
 
           <IonCard>
-            <IonImg src="/assets/about_us/founders/Skyla.png" alt="Skyla Wagstaff" />
+
             <IonCardHeader>
               <IonCardTitle>Skyla Wagstaff</IonCardTitle>
             </IonCardHeader>
-            <IonCardContent>Lead storyteller by day, sound sleeper by night, Skyla gives orders and setting direction.</IonCardContent>
+            <IonCardContent>
+              <IonGrid>
+                <IonRow>
+                  <IonCol>Lead storyteller by day, sound sleeper by night, Skyla gives orders and setting direction.</IonCol>
+                  <IonCol><IonImg src="/assets/about_us/founders/Skyla.png" alt="Skyla Wagstaff" /></IonCol>
+                </IonRow>
+              </IonGrid>
+            </IonCardContent>
           </IonCard>
 
           <IonCard>
-            <IonImg src="/assets/about_us/founders/Nova.png" alt="Nova Wagstaff" />
             <IonCardHeader>
               <IonCardTitle>Nova Wagstaff</IonCardTitle>
             </IonCardHeader>
-            <IonCardContent>Palaeontologist by day, Nova saves her storytelling for night. The brains behind the operation.</IonCardContent>
+            <IonCardContent>
+            <IonGrid>
+                <IonRow>
+                  <IonCol>Palaeontologist by day, Nova saves her storytelling for night. The brains behind the operation.</IonCol>
+                  <IonCol><IonImg src="/assets/about_us/founders/Nova.png" alt="Skyla Wagstaff" /></IonCol>
+                </IonRow>
+              </IonGrid>
+            </IonCardContent>
           </IonCard>
 
           <IonCard>
-            <IonImg src="/assets/about_us/founders/Mike.png" alt="Mike Wagstaff" />
             <IonCardHeader>
               <IonCardTitle>Mike Wagstaff</IonCardTitle>
             </IonCardHeader>
-            <IonCardContent>Code jockey. To be replaced by AI as soon as possible.</IonCardContent>
+            <IonCardContent>
+            <IonGrid>
+                <IonRow>
+                  <IonCol>Code jockey. To be replaced by AI as soon as possible.</IonCol>
+                  <IonCol><IonImg src="/assets/about_us/founders/Mike.png" alt="Skyla Wagstaff" /></IonCol>
+                </IonRow>
+              </IonGrid>
+            </IonCardContent>
 
           </IonCard>
 

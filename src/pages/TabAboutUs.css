@@ -3,8 +3,7 @@ ion-card-subtitle {
 }
 
 ion-img {
-    max-height: 250px !important;
-    max-width: 250px !important;
+    max-height: 100px !important;
+    max-width: 100px !important;
     float: inline-end;
-    padding-left: 10px;
 }
